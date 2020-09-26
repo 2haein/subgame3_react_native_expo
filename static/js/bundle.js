@@ -63,7 +63,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "6de617987baa55f4beba";
+/******/ 	var hotCurrentHash = "4dbc5161e4ace719c27c";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -2280,7 +2280,7 @@ __webpack_require__.r(__webpack_exports__);
 function App() {
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_native_web_dist_exports_View__WEBPACK_IMPORTED_MODULE_4__["default"], {
     style: styles.container
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_native_web_dist_exports_Text__WEBPACK_IMPORTED_MODULE_3__["default"], null, "Open up App.js to start working on your app!"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(expo_status_bar__WEBPACK_IMPORTED_MODULE_0__["StatusBar"], {
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_native_web_dist_exports_Text__WEBPACK_IMPORTED_MODULE_3__["default"], null, "app \uCD94\uAC00\uD558\uAE30"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(expo_status_bar__WEBPACK_IMPORTED_MODULE_0__["StatusBar"], {
     style: "auto"
   }));
 }
