@@ -1,0 +1,22 @@
+
+npm i --save-dev gh-pages
+
+npx gh-pages -d web-build
+
+
+
+
+
+$ npm install -g create-react-app
+새로운 React JS 앱을 생성합니다.
+$ create-react-app appname
+생성된 앱을 실행합니다.
+$ cd appname
+$ npm start
+$ npm install --save gh-pages
+
+homepage 주소를 수정하고 predeploy와 deploy를 scripts에 추가합니다.
+predeploy: npm run build,
+deploy: gh-pages -d build,
+
+$ npm run deploy
