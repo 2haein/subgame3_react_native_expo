@@ -1,23 +1,14 @@
 {
   "files": {
-    "app.js": "thekpop.net/static/js/app.413167b2.chunk.js",
-    "app.js.map": "thekpop.net/static/js/app.413167b2.chunk.js.map",
-    "runtime~app.js": "thekpop.net/static/js/runtime~app.20805758.js",
-    "runtime~app.js.map": "thekpop.net/static/js/runtime~app.20805758.js.map",
-    "static/js/2.dd6240d1.chunk.js": "thekpop.net/static/js/2.dd6240d1.chunk.js",
-    "static/js/2.dd6240d1.chunk.js.map": "thekpop.net/static/js/2.dd6240d1.chunk.js.map",
-    "favicon-16.png": "thekpop.net/favicon-16.png",
-    "favicon-32.png": "thekpop.net/favicon-32.png",
-    "favicon.ico": "thekpop.net/favicon.ico",
-    "index.html": "thekpop.net/index.html",
-    "manifest.json": "thekpop.net/manifest.json",
-    "serve.json": "thekpop.net/serve.json",
-    "static/js/2.dd6240d1.chunk.js.LICENSE.txt": "thekpop.net/static/js/2.dd6240d1.chunk.js.LICENSE.txt",
-    "toast.PNG": "thekpop.net/toast.PNG"
+    "app.js": "/static/js/bundle.js",
+    "app.js.map": "/static/js/bundle.js.map",
+    "favicon-16.png": "/favicon-16.png",
+    "favicon-32.png": "/favicon-32.png",
+    "favicon.ico": "/favicon.ico",
+    "index.html": "/index.html",
+    "manifest.json": "/manifest.json"
   },
   "entrypoints": [
-    "static/js/runtime~app.20805758.js",
-    "static/js/2.dd6240d1.chunk.js",
-    "static/js/app.413167b2.chunk.js"
+    "static/js/bundle.js"
   ]
 }
