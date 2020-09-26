@@ -7,9 +7,11 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "eject": "expo eject",
-    "deploy": "expo-gh-pages"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
+    "@expo/webpack-config": "^0.12.35",
     "expo": "~39.0.2",
     "expo-gh-pages": "^1.2.0",
     "expo-status-bar": "~1.0.2",
@@ -19,7 +21,8 @@
     "react-native-web": "~0.13.12"
   },
   "devDependencies": {
-    "@babel/core": "~7.9.0"
+    "@babel/core": "~7.9.0",
+    "gh-pages": "^3.1.0"
   },
   "private": true
 }
