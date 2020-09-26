@@ -1,14 +1,17 @@
 {
   "main": "node_modules/expo/AppEntry.js",
+  "homepage": "",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "eject": "expo eject"
+    "eject": "expo eject",
+    "deploy": "expo-gh-pages"
   },
   "dependencies": {
     "expo": "~39.0.2",
+    "expo-gh-pages": "^1.2.0",
     "expo-status-bar": "~1.0.2",
     "react": "16.13.1",
     "react-dom": "16.13.1",
