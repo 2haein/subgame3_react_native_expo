@@ -16,7 +16,7 @@ $ npm start
 $ npm install --save gh-pages
 
 homepage 주소를 수정하고 predeploy와 deploy를 scripts에 추가합니다.
-predeploy: npm run build,
-deploy: gh-pages -d build,
+"predeploy": "npm run build",
+"deploy": "gh-pages -d build",
 
 $ npm run deploy
